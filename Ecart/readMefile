@@ -1,0 +1,15 @@
+
+
+Normal Run
+if you run the program then you go through .xml file to right click and select to testNG run
+
+Maven Run
+
+go through command prompt 
+to enter "mvn test" --> its run normal test
+if you want to run .xml file data then you create profiles and run the command "mvn test -Pprofilename"
+if you want to run with change of browser then run command "mvn test -PprofileName -Dbroswer=browserName"
+
+Jenkins Automate
+first you download jenkins war file on your computer and after go to cmd set the path where you download the file and finally
+you run the command "java -jar jenkins.war --httpPort=9090"
